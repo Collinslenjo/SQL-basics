@@ -5,7 +5,9 @@ CREATE TABLE months (id int, name varchar(10), days int);
 INSERT INTO months (id,name,days) VALUES (1,"January",31);
 -- SElecting or Fetching Data from our SQL DB:
 SELECT * FROM "months"; --to get all the rows in the months table
-----Now to select filtered data from the Database--
+--
+--Now to select filtered data from the Database
+--
 SELECT days, name, id FROM "months";
 -- we can also get by order by adding order by
 SELECT days, name, id FROM "months" ORDER BY id DESC; -- ASC by default
