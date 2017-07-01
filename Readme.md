@@ -1,2 +1,3 @@
 ## SQL-basics
-> The basics of Sql in DB's
+> The basics of Sql
+ * queries and inbuilt functions (MySQL)
